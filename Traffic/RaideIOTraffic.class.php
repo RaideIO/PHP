@@ -3,14 +3,14 @@
 /**
  * Raide API
  *
- * @funcs   __construct( $account_id, $api_key, $api_password )
- *			submit( $requester, $base64_queue )
+ * @funcs	__construct( $account_id, $api_key, $api_password )
+ *		submit( $requester, $base64_queue )
  */
 
 class RaideIOTraffic
 {	
-	private $accountId 		= 0;
-	private $apiKey 		= '';
+	private $accountId	= 0;
+	private $apiKey		= '';
 	private $apiPassword	= '';
 	
 	private $endPoint = 'http://api-traffic.raide.io/1.0/';
@@ -18,7 +18,7 @@ class RaideIOTraffic
 	/**
 	 * When an instance of this class is initialized.
 	 *
-	 * @param	int			$account_id		Raide Account ID.
+	 * @param	int		$account_id		Raide Account ID.
 	 * @param	string		$api_key		Raide API Key.
 	 * @param	string		$api_password	Raide API Password.
 	 */
@@ -155,7 +155,7 @@ class RaideIOTraffic
 	/**
 	 * Submit a Queue.
 	 *
-	 * @param	mixed	$requester		Either an e-mail address, or an array {id, email, name}.
+	 * @param	mixed	$requester	Either an e-mail address, or an array {id, email, name}.
 	 * @param	string	$base64_queue	A base64-encoded string provided by the RaideIOLogger Object.
 	 * @return	array
 	 */
