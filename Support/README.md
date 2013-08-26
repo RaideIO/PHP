@@ -33,7 +33,7 @@ string  $api_password   Your Raide API Password.
 Example(s)
 
 ```php
-$RaideIO = new RaideIO( RAIDE_ACCOUNT_ID, RAIDE_API_KEY, RAIDE_API_PASSWORD );
+$RaideIO = new RaideIOSupport( RAIDE_ACCOUNT_ID, RAIDE_API_KEY, RAIDE_API_PASSWORD );
 ```
 
 ---
