@@ -26,8 +26,8 @@ class RaideIOTraffic
 	public function __construct( $account_id = 0, $api_key = '', $api_password = '' )
 	{
 		$this->accountId	= $account_id;
-		$this->apiKey 		= $api_key;
-		$this->apiPassword 	= $api_password;
+		$this->apiKey		= $api_key;
+		$this->apiPassword	= $api_password;
 	}
 
 	/**
