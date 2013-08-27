@@ -2,7 +2,7 @@
 
 ---
 
-This works hand-in-hand with the [RaideJS](https://github.com/RaideIO/jQuery) JavaScript (and jQuery) Object.
+This works hand-in-hand with the [RaideIOTraffic](https://github.com/RaideIO/jQuery/blob/master/Traffic/RaideIOTraffic.js) JavaScript (and jQuery) file.
 
 ---
 
