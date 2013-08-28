@@ -2,7 +2,7 @@
 
 ---
 
-This works hand-in-hand with the [RaideIOSupport](https://github.com/RaideIO/jQuery/tree/master/Support) JavaScript (and jQuery) Object.
+This works hand-in-hand with the [RaideIO](https://github.com/RaideIO/jQuery) JavaScript (and jQuery) Object.
 
 ---
 
@@ -33,7 +33,7 @@ string  $api_password   Your Raide API Password.
 Example(s)
 
 ```php
-$RaideIO = new RaideIOSupport( RAIDE_ACCOUNT_ID, RAIDE_API_KEY, RAIDE_API_PASSWORD );
+$RaideIO = new RaideIO( RAIDE_ACCOUNT_ID, RAIDE_API_KEY, RAIDE_API_PASSWORD );
 ```
 
 ---
