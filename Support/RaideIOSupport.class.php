@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Raide API
+ * RaideIO API
  *
  * @funcs       __construct( $account_id, $api_key, $api_password )
  *		__parse_results( $results )
@@ -14,13 +14,13 @@
  *		update( $id, $status, $is_external_id )
  */
 
-class RaideIOSupport
+class RaideIO
 {	
 	private $accountId 	= 0;
 	private $apiKey 	= '';
 	private $apiPassword 	= '';
 	
-	private $endPoint = 'http://api-support.raide.io/1.0/';
+	private $endPoint = 'http://api.raide.io/1.0/';
 
 	/**
 	 * When an instance of this class is initialized.
